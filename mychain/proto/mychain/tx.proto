@@ -1,0 +1,13 @@
+syntax = "proto3";
+package alirangwala.mychain.mychain;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/alirangwala/mychain/x/mychain/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
